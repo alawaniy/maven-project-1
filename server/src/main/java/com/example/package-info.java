@@ -1,6 +1,6 @@
 /**
 *
-This is the Package information
+This is the Package name.
 *
 */
 package com.example;
