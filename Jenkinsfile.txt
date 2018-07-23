@@ -9,6 +9,7 @@ pipeline {
 			  success {
 			     echo 'Now Archiving...'
 				 archiveArtifacts artifacts: '**/target/*.war'
+				 checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
                       }
 			      }
             }
